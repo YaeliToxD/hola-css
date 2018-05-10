@@ -2,9 +2,84 @@
 <html>
 <head>
 	<title>Hola CSS</title>
+	<style type="text/css">
+		body{ 
+			font-family: Arial, sanz-serif;
+			font-size: 13px;
+			background: black url('fd.jpg');
+			color: white;
+		}
+		h1{
+			color: red;
+			/*display: inline;*/
+		}
+		.text-center{
+			text-align: center;
+		}
+		#box1{
+			background-color: black; 
+			color: white;
+			width: 300px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin: 20px;
+			border-width: 3px;
+			border-color: red;
+			border-style: dashed;
+			float: left;
+			background: black url('fd2.jpg');
+		}
+		#box2{
+			background-color: black;
+			color: white;
+			width: 300px;
+			padding: 20px 20px 20px 20px;
+			margin: 20px;
+			border: red 3px dashed;
+			float: left;
+			background: black url('fd3.jpg');
+		}
+		.clr{
+			clear: both;
+		}
+		.mylist{
+			list-style: none;
+			padding: 0;
+			line-height: 2.2em;
+		}
+		li{
+			border-bottom: red 2.2em solid;
+		}
+	</style>
 </head>
 <body>
 <h1>Hola CSS</h1>
 <h2>Presentacion</h2>
+<div>
+	<h1 class="text-center">BIENVENIDOS</h1>
+	<p class="text-center">Esto es un parrafo</p>
+	<p>Esto es otro parrafo</p>
+</div>
+<div id="box1">
+	Esto es la caja uno
+</div>
+<div id="box2">
+	Esta es la caja dos
+</div>
+<div class="clr">
+	
+</div>
+	
+<ul class="mylist">
+	<li>DOMINGO</li>
+	<li>LUNES</li>
+	<li>MARTES</li>
+	<li>MIERCOLES</li>
+	<li>JUEVES</li>
+	<li>VIERNES</li>
+	<li>SABADO</li>
+</ul>
 </body>
 </html>
